@@ -88,4 +88,4 @@ def predict_endpoint():
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(host='10.0.2.250', debug=True, use_reloader = False)
+    app.run(host='0.0.0.0', debug=True, use_reloader = False)
